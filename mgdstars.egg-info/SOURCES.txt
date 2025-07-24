@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+mgdstars/__init__.py
+mgdstars/core.py
+mgdstars/vizualization.py
+mgdstars.egg-info/PKG-INFO
+mgdstars.egg-info/SOURCES.txt
+mgdstars.egg-info/dependency_links.txt
+mgdstars.egg-info/entry_points.txt
+mgdstars.egg-info/requires.txt
+mgdstars.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+mgdstars = mgdstars.cli:main

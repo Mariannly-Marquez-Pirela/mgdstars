@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: mgdstars
+Version: 0.1.0
+Summary: A Python package for Minimal Geometric Deformation (MGD) star calculations
+Home-page: https://github.com/mariannly/mgdstars
+Author: Mariannly Marquez
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Mariannly/mgdstars
+Keywords: physics,general-relativity,modified-gravity,stars
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: sympy>=1.8.0
+Provides-Extra: viz
+Requires-Dist: matplotlib>=3.0; extra == "viz"
+Requires-Dist: seaborn; extra == "viz"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# MGDStars
+
+A Python package for Minimal Geometrical Deformation (MGD) compact star calculations.
+
+## Installation
+
+```bash
+pip install mgdstars
+
+## Usage
+
+```python
+from mgdstars import MGDCStar
+
+#
